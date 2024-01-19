@@ -33,6 +33,11 @@ RustBasic
    cargo run
    ```
 
+##  Criando um Novo Projeto:
+```bash
+cargo new nome_do_projeto
+```
+
 ## Documentação
 
 - Adicione documentação aos seus módulos e funções conforme necessário.
