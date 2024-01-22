@@ -1,22 +1,31 @@
 // Declaração de uma função chamada "soma"
 
-// Importando o Módulo em Outro Arquivo
-// main.rs
-// Use a palavra-chave `mod` seguida pelo nome do arquivo mod.rs (sem extensão)
+// Importando o Módulo
 mod modules;
 
+// Este é um comentário de linha única
 
-
-
-
+/// Esta é uma documentação para a função main
+///
+/// # Arguments
+///
+/// * `a` - text1
+/// * `b` -text2
+///
+/// # Returns
+///
+/// O resultado de main.
 fn main() {
+    /*
+    Este é um comentário de múltiplas linhas.
+    Pode abranger várias linhas.
+    */
     modules::data();
     modules::decision();
     modules::loops();
-    let resultado = modules::functions::soma(3, 4);
-    println!("Resultado da soma: {}", resultado);
+    modules::functions();
+    modules::primitive_types();
+    modules::composite_types();
+
     
-    // Closures:
-    let soma_closure = |a, b| a + b;
-    println!("A soma é: {}", soma_closure(3, 5));
 }

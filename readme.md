@@ -73,12 +73,12 @@ Este guia fornece uma lista de tópicos a estudar para aprofundar o conhecimento
 - [x] Loops (for, while).
 - [x] Funções 
 - [ ] Closures.
-- [ ] Comentários.
+- [x] Comentários.
 
 ## Tipos de Dados
 
-- [ ] Tipos primitivos (inteiros, ponto flutuante, booleanos).
-- [ ] Tipos compostos (tuplas, arrays, slices, strings).
+- [x] Tipos primitivos (inteiros, ponto flutuante, booleanos).
+- [x] Tipos compostos (tuplas, arrays, slices, strings).
 - [ ] Structs e Enums.
 
 ## Borrowing e Ownership
