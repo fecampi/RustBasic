@@ -27,7 +27,7 @@ fn main() {
     modules::primitive_types();
     modules::composite_types();
     modules::struct_type();
-    modules::enum_type()
-
-    
+    modules::enum_type();
+    modules::ownership(); 
+    modules::borrowing()
 }

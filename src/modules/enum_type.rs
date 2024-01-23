@@ -2,6 +2,7 @@
 /// - Typical Use of Enums
 /// - Associated Data
 /// - Associated Methods
+#[allow(dead_code)]
 enum Shape {
     Circle(f64),
     Rectangle(f64, f64),
@@ -21,6 +22,7 @@ impl Shape {
 }
 
 // Enum to represent status
+#[allow(dead_code)]
 enum Status {
     Ok,
     NotFound,
@@ -30,6 +32,7 @@ enum Status {
 // Enum with methods
 /// Enums for Modeling Events
 /// Associated Data and Specific Behavior
+#[allow(dead_code)]
 enum WebEvent {
     PageLoad,
     PageUnload,

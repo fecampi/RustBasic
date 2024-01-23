@@ -84,8 +84,8 @@ Este guia fornece uma lista de tópicos a estudar para aprofundar o conhecimento
 
 ## Borrowing e Ownership
 
-- [ ] Conceito de propriedade (ownership).
-- [ ] Referências e empréstimos (borrowing).
+- [x] Conceito de propriedade (ownership).
+- [x] Referências e empréstimos (borrowing).
 - [ ] Regras do sistema de propriedade (ownership system rules).
 
 ## Lifetime
