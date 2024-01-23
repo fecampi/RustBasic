@@ -26,6 +26,8 @@ fn main() {
     modules::functions();
     modules::primitive_types();
     modules::composite_types();
+    modules::struct_type();
+    modules::enum_type()
 
     
 }

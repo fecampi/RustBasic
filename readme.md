@@ -79,7 +79,8 @@ Este guia fornece uma lista de tópicos a estudar para aprofundar o conhecimento
 
 - [x] Tipos primitivos (inteiros, ponto flutuante, booleanos).
 - [x] Tipos compostos (tuplas, arrays, slices, strings).
-- [ ] Structs e Enums.
+- [x] Structs.
+- [x] Enums.
 
 ## Borrowing e Ownership
 
