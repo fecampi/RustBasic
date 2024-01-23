@@ -29,5 +29,7 @@ fn main() {
     modules::struct_type();
     modules::enum_type();
     modules::ownership(); 
-    modules::borrowing()
+    modules::borrowing();
+    modules::lifetime();
+    modules::lifetime_structs()
 }

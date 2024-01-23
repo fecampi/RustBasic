@@ -8,6 +8,8 @@ pub mod ownership;
 pub mod primitive_types;
 pub mod struct_type;
 pub mod borrowing;
+pub mod lifetime;
+pub mod lifetime_structs;
 
 pub use composite_types::default_function as composite_types;
 pub use data::default_function as data;
@@ -19,3 +21,5 @@ pub use ownership::default_function as ownership;
 pub use primitive_types::default_function as primitive_types;
 pub use struct_type::default_function as struct_type;
 pub use borrowing::default_function as borrowing;
+pub use lifetime::default_function as lifetime;
+pub use lifetime_structs::default_function as lifetime_structs;

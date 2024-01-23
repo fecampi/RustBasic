@@ -1,13 +1,24 @@
 // - Refere-se à gestão da alocação e liberação de memória.
 
 // Três princípios básicos:
-// 1. Cada valor tem uma única variável que o possui.
-// 2. Somente uma variável pode ser a proprietária do valor por vez:
-//    Quando um valor é atribuído a uma nova variável, a variável anterior perde automaticamente a propriedade.
-// 3. Quando a variável proprietária sai de escopo, o valor é liberado da memória automaticamente,
-//    sem a necessidade de intervenção explícita.
-
 // Esses princípios garantem um gerenciamento seguro e eficiente da memória em Rust.
+
+fn ownership_system_rules() {
+    // Regra 1: Cada valor tem uma única variável que o possui.
+    let original_value = String::from("Hello");
+
+    // Regra 2: Somente uma variável pode ser a proprietária do valor por vez.
+    let _new_variable = original_value;
+
+    // O seguinte código resultaria em um erro, pois original_value perdeu a propriedade.
+    // println!("Original: {}", original_value); /
+
+    // Regra 3: Quando a variável proprietária sai de escopo, o valor é liberado da memória.
+    // new_variable sai de escopo aqui, e a memória associada ao valor é liberada automaticamente.
+}
+
+
+// Outros exemplos utilizando os princípios
 
 
 // Transferindo a propriedade
@@ -62,10 +73,10 @@ fn ownership_returning_example() -> String {
 
 
 pub fn default_function() {
+    ownership_system_rules();
     transfer_ownership_example();
     only_one_ownership_example();
     ownership_passing_example();
     let returned_string = ownership_returning_example();
     println!("Função retornou: {}", returned_string);
 }
-    // Quando  returned_string sai de escopo, Rust libera automaticamente a memória associada à String.

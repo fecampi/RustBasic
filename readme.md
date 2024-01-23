@@ -84,14 +84,14 @@ Este guia fornece uma lista de tópicos a estudar para aprofundar o conhecimento
 
 ## Borrowing e Ownership
 
+- [x] Regras do sistema de propriedade (ownership system rules).
 - [x] Conceito de propriedade (ownership).
 - [x] Referências e empréstimos (borrowing).
-- [ ] Regras do sistema de propriedade (ownership system rules).
 
 ## Lifetime
 
-- [ ] Conceito de tempo de vida (lifetime).
-- [ ] Anotações de tempo de vida em funções e structs.
+- [x] Conceito de tempo de vida (lifetime).
+- [x] Anotações de tempo de vida em funções e structs.
 
 ## Ownership e Concorrência
 
