@@ -21,11 +21,7 @@ fn get_longest<'a>(s1: &'a str, s2: &'a str) -> &'a str {
     }
 }
 
-// Função que utiliza anotação de tempo de vida em parâmetro
-fn first_word<'a>(s: &'a str) -> &'a str {
-    // Implementação
-    &s[0..5]  // Exemplo arbitrário, substitua pela lógica real
-}
+
 
 
 pub fn default_function() {
@@ -43,5 +39,5 @@ pub fn default_function() {
     }
 
     // O código abaixo resultaria em um erro, pois a referência devolvida por get_longest não é mais válida aqui.
-    // println!("A string mais longa é: {}", _result); // Comente essa linha para corrigir o erro.
+    // println!("A string mais longa é: {}", _result); 
 }

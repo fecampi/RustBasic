@@ -101,8 +101,8 @@ Este guia fornece uma lista de tópicos a estudar para aprofundar o conhecimento
 
 ## Traits e Implementação Genérica
 
-- [ ] Definição e uso de traits.
-- [ ] Implementação genérica de funções e structs.
+- [x] Definição e uso de traits.
+- [x] Implementação genérica de funções e structs.
 
 ## Padrões de Design Funcionais
 

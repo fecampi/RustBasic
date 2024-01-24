@@ -10,6 +10,8 @@ pub mod struct_type;
 pub mod borrowing;
 pub mod lifetime;
 pub mod lifetime_structs;
+pub mod traits;
+pub mod generics;
 
 pub use composite_types::default_function as composite_types;
 pub use data::default_function as data;
@@ -23,3 +25,5 @@ pub use struct_type::default_function as struct_type;
 pub use borrowing::default_function as borrowing;
 pub use lifetime::default_function as lifetime;
 pub use lifetime_structs::default_function as lifetime_structs;
+pub use traits::default_function as traits;
+pub use generics::default_function as generics;

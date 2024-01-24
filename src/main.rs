@@ -31,5 +31,7 @@ fn main() {
     modules::ownership(); 
     modules::borrowing();
     modules::lifetime();
-    modules::lifetime_structs()
+    modules::lifetime_structs();
+    modules::traits();
+    modules::generics();
 }
